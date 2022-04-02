@@ -1,0 +1,214 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 24px;
+            padding: 30px;
+        }
+		
+	@font-face {
+    font-family: 'robotothin';
+    src: url('roboto-thin-webfont.eot');
+    src: url('roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-thin-webfont.woff2') format('woff2'),
+         url('roboto-thin-webfont.woff') format('woff'),
+         url('roboto-thin-webfont.ttf') format('truetype'),
+         url('roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'colaborateregular_allfont_es';
+    src: url('colaborateregular_allfont_es.eot');
+    src: url('colaborateregular_allfont_es.eot') format('embedded-opentype'),
+         url('colaborateregular_allfont_es.woff2') format('woff2'),
+         url('colaborateregular_allfont_es.woff') format('woff'),
+         url('colaborateregular_allfont_es.ttf') format('truetype'),
+         url('colaborateregular_allfont_es.svg#colaborateregular_allfont_es') format('svg');
+}
+section {
+max-height: 2200px;
+padding:10px;
+    box-sizing: border-box;
+    overflow: hidden;
+} 
+ 
+figure {
+    text-align: center;
+    margin: 3em 0 1rem;
+	
+}
+.figure-img {
+    margin-bottom: 0em;
+} 
+        #compra {
+           background:#6e4714;
+        }
+		
+		img {
+    margin: auto;
+	max-width: 100%;
+height: auto;
+} 
+
+        #siguiente1 {
+background:black;
+        width: 7em;
+    padding: 1em;
+		}
+        #siguiente2 {
+background:black;
+        width: 7em;
+    padding: 1em;
+		}
+        #siguiente3 {
+background:black;
+        width: 7em;
+    padding: 1em;
+		}
+        #arriba {
+background:black;
+        width: 7em;
+    padding: 1em;
+		}
+
+
+		#elige {
+          background: #645130;
+		  
+
+        }
+		#descargar {
+          background: #2b2720;
+		  border-radius: 3em;
+		  font-family: 'colaborateregular_allfont_es';
+		  color:white;
+		  width: 55%;
+    font-size: 1.5em;
+    margin: 1em;
+	float: right;
+        }
+
+        #contactanos {
+          background: #48453f;
+		  
+		 
+        }
+.pleno {
+            background: #636;
+            height: 400px;
+        }
+        
+        #fin {
+            background: #636;
+            height: 400px;
+        }
+		
+        #datos {
+			background: #d38e42;
+			text-align: center;
+	padding-bottom: 2em;
+		}
+        #suscribite {
+			color: white;
+			text-align: center;
+			font-size: 1.7em;
+			 font-family: 'robotothin';
+		}
+
+		.texto{
+		
+font-family: 'robotothin';
+		font-size: 3em;
+		color:#dc7e29;
+		}
+		
+		.fondoboton{
+		
+		background:black;
+		padding:1em;
+		
+		}
+
+        .pleno {
+            background: #636;
+            height: 400px;
+        }
+
+
+        #fin {
+            background: #636;
+            height: 400px;
+        }
+p {
+    margin-top: 0;
+    margin-bottom: 0em;
+}
+
+		#exampleInputEmail1 {
+		
+		text-align:center;
+		}
+		
+		 .carousel-indicators li {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: pink;
+        }
+        
+        .carousel-indicators .active {
+            background: fuchsia;
+        }
+        
+        .carousel-caption {
+            background: rgba(0, 0, 0, .5);
+        }
+      
+	  
+@media screen and (min-width: 768px) {
+    
+       #siguiente1 {
+        width: 7em;
+    padding: 1em;
+		}
+        #siguiente2 {
+        width: 8em;
+   
+		}
+        #siguiente3 {
+
+        width: 7em;
+   
+		}
+        #arriba {
+
+        width: 7em;
+   	}
+	
+	.texto {
+    font-size: 5em;
+}
+
+section {
+            max-height: 2000px;
+        }
+
+}
+.figure-img {
+    margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 922px) {
+    
+  
+
+#descargar {
+    width: 50%;
+    float: right;
+}
+
+}
